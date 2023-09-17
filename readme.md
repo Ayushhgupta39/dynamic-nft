@@ -18,5 +18,8 @@ In the project, I'll build a Dynamic NFT using [Chainlink’s decentralized and 
 We'll learn to build a Dynamic NFT that changes based on market data using Chainlink Oracles that pull data from external sources into a smart contract.
 
 - #### What are Oracles?
-    For smart contracts, oracles are a middle-ware product in which data outside of the blockchain (such as real-world data from weather to stocks) is connected to it. That data is then used for conditions of smart contracts. Ethereum is self-contained, so oracles would allow smart contracts to branch out into real-world applications by bringing the data to it. An example of this would be sports betting, where a smart contract would be resolved by receiving the scores of a sporting event.
+    For smart contracts, oracles are a middleware product in which data outside of the blockchain (such as real-world data from weather to stocks) is connected to it. That data is then used for conditions of smart contracts. Ethereum is self-contained, so oracles would allow smart contracts to branch out into real-world applications by bringing the data to it. An example of this would be sports betting, where a smart contract would be resolved by receiving the scores of a sporting event.
 
+Then, we will use the automations from the [Chainlink Keepers Network](https://docs.chain.link/chainlink-automation/introduction) to automate our NFT smart contract to update the NFTs according to the asset price data you're tracking.
+
+Finally, we will use [Chainlink’s Verifiable Random Function](https://docs.chain.link/docs/chainlink-vrf/) to add cryptographically guaranteed randomness to our NFT smart contract to randomly select an NFT image from a list of options.
